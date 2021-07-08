@@ -532,6 +532,26 @@ footer {
   padding: 10px;
   width: 100%;
 }
+/* 固定ページ */
+.page article,
+.page p {
+	text-align: center;
+}
+
+.page h1 {
+	color: #333;
+	text-shadow: initial;
+}
+
+.error404 article,
+.error404 p {
+	text-align: center;
+}
+
+.error404 h1 {
+	color: #333;
+	text-shadow: initial;
+}
 
 /* PC用スタイル */
 @media screen and (min-width:768px) {
